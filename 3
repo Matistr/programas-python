@@ -1,0 +1,12 @@
+from random import *
+l1 =[0]*10
+print(l1)
+
+l1[0] = randint(0, 99)
+l1[1]= randint(0, 99)
+print(l1)
+
+for indice in range(2, len(l1)):
+    l1[indice] = l1[indice-1] + l1[indice-2]
+
+print(l1)

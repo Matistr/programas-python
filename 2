@@ -1,0 +1,15 @@
+from random import *
+l1 = []
+for x in range(20):
+    l1.append(0)
+print(l1)
+    
+min = l1[0]
+for elem in l1:
+    if min > elem:
+        min = elem
+print("minimo{}".format(min,max))
+
+for indice in range(len(l1)):
+    l1[indice] = l1[indice] - min
+print(l1)
