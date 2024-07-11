@@ -11,4 +11,4 @@ for elem in l1:
     if max < elem:
         max = elem
         
-print("Minimo {} y maximo {}".format(min,max))
+print("Minimo {min} y maximo {}".format(min,max))
